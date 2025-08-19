@@ -6,12 +6,12 @@ export class TransformControlsManager extends Behaviour implements IPointerUpHan
     @syncField()
     private dragControlsDisabled: boolean = false;
     
+    private id: string = null;
+    
     private static objects: Array<TransformControlsManager> = [];
 
     lateUpdate(): void {
-        if (!this.id) {
-            this.gameObject.destroy()
-        }
+        
     }
     
     start(): void {
