@@ -23,5 +23,8 @@ MonoBehaviour:
   - Path: Assets/Scenes/NeedleSample.unity
     Projects: []
     BuilderScene: 
+  - Path: Assets/Scenes/BuiltInTemplate.unity
+    Projects: []
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/Workbench
